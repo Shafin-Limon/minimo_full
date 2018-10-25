@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+
+.wrapper1, .wrapper2 {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.wrapper1 {
+    width: 90%;
+}
+
+.wrapper2 {
+    width: 80%;
+}
+
+.f_ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    font-size: 14px;
+}
+
+
+/* header start */
+
+header {
+    padding: 40px 0px;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+.logo h1 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    font-size: 40px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.menu {
+	width: 70%;
+	float: right;
+}
+.menu ul {
+	float: right;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+}
+.menu ul li a {
+	color: #626262;
+	font-size: 16px;
+	padding: 20px 100px;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	transition: 0.5s;
+}
+.menu ul li a:hover{
+	color: #111111;
+}
+.menu ul li a:last-child{
+	padding-right: 0;
+}
+
+/* header end */
+
+/* banner start */
+
+.banner_img{
+    width: 100%;
+}
+
+/* banner end */
+
+/* start perfcet area */
+.perfect, .blog2, .button, .footer_content{
+	padding: 50px 0;
+}
+.container2{
+	max-width: 900px;
+	margin: 0 auto;
+}
+.perfect_content{
+
+}
+.m_tb{
+	font-size: 30px;
+	font-weight: normal;
+	margin: 15px 0px 20px 0px;;
+}
+.common_text{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.text_2{
+	font-size: 14px;
+	line-height: 24px;
+   	padding-bottom: 35px;
+
+}
+/* end perfcet area */
+
+/* start blog area */
+.blog{
+    padding: 15px 0px
+ }
+.blog_content, .blog_content2{
+	overflow: hidden;
+}
+.single_content, .single_content2{
+	width: 47%;
+	float: left;
+	padding-bottom: 15px;
+}
+.single_content:nth-child(even), .single_content2:nth-child(even){
+	margin-left: 6%;
+}
+.single_content img, .single_content2 img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+/* end blog area */
+
+/* start signup area */
+.signup{
+	background-color: #f0f0f0;
+	padding: 50px 0px;
+}
+.signup_content{
+	text-align: center;
+}
+.signup_content h2{
+	font-size: 30px;
+	color: #333333;
+	font-weight: normal;
+	margin-bottom: 80px;
+}
+
+.for_form{
+	width: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+.for_form input{
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+    width: 355px;
+    padding: 10px 40px 10px 8px;
+}
+.for_form button{
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    position: absolute;
+}
+.for_form button:hover{
+	cursor: pointer;
+}
+
+.for_form button:focus {
+	outline: none;
+	border: 0;
+}
+/* end signup area */
+
+/* start button area */
+
+.button_content{
+	text-align: center;
+}
+.button_content button{
+    padding: 20px 30px;
+    font-size: 14px;
+    text-transform: capitalize;
+    border: 1px solid #626262;
+    color:#818181;
+    background: transparent;
+}
+.button_content button:hover{
+	cursor: pointer;
+}
+/* end button area */
+
+/* start footer area */
+.footer_content{
+	background-color: #ddd;
+}
+.footer_text{
+	overflow: hidden;
+}
+.footer_left, .footer_right{
+	width: 50%;
+	float: left;
+}
+.footer_left ul{}
+.footer_left ul li, .footer_right ul li{
+	list-style: none;
+	float: left;
+}
+.footer_left ul li a, .footer_right ul li a{
+	padding-right: 25px;
+	color: #000000;
+	text-decoration: none;
+	font-size: 14px;
+	display: block;
+}
+.footer_right ul li a{
+	padding-right: 5px;
+	display: block;
+	padding-top: 2px;
+}
+.footer_left ul li a:hover, .social_icon:hover {
+	cursor: pointer;
+}
+.footer_right ul{
+	float: right;
+}
+.social_icon{
+	padding: 0px 20px;
+	font-size: 16px;
+}
+.social_icon:last-child {
+	padding-right: 0;
+}
+/* end footer area */
